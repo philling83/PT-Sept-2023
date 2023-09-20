@@ -78,7 +78,7 @@ console.log("door hinge".indexOf("hin")); // => 5 //still 5
 console.log("door hinge".indexOf("hint")); // => -1 //'hint' does not exist in str
 ```
 
-### string.indexOf(characters)
+### Adding Strings
 Joining two or more strings together. To **concatenate strings**, we use the `+` **operator**:
 
 ```javascript
