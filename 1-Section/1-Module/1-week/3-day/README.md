@@ -89,9 +89,9 @@ console.log("goodbye" + " " + "moon"); // => 'goodbye moon'
 ## Functions
 A function ([MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function)) is a procedure of code(s) that will run when called (invoked / executed). 
 ### Function Declaration | Definiton 🟦
-- known as **writing** a **function defintion**.
+- Known as **writing** a **function definition**.
 - **Think** of this as the **blueprint 🟦**
-- blue prints / function declarations are **re-usable**
+- Blue prints / function declarations are **re-usable**
 - **code inside** function **declaration** is **not executed** 
 
 ```javascript
@@ -102,7 +102,7 @@ function house_blue_print(name_parameter) {
 ```
 
 ### Function Invocation 🏚
-- known as **calling** or **executing** a **function declaration**
+- Known as **calling** or **executing** a **function declaration**
 - **Think** of this as the **house 🏚** built from the blueprint
 - We can **build many 🏚 🏚 🏚 🏚** from **1 🟦 blue print**.
 - **invoke** by calling the **function name** with **()** and **passing arguments** if needed.
