@@ -10,7 +10,7 @@ Valid String
 ```javascript
 // valid strings
 'Shakespeare wrote, "To be or not to be"';
-"That's a great string
+"That's a great string"
 'That\'s an amazing escape!' //using '\' as an escape sequence
 ```
 - More on the [escape sequence](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#escape_sequences) here in the docs
