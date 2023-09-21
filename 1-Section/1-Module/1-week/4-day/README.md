@@ -234,7 +234,7 @@ console.log(typeof [1,2,3]); //object ... shouldn't it be array?
 - **return value** of `Array.isArray` is a `boolean` (**true or false**)
 ```javascript
 console.log(Array.isArray([1,2,3])); //true
-// When when we provide an array as an argument to that expression, we'll get
+// When we provide an array as an argument to that expression, we'll get
 // a return value of true, otherwise we'll get false:
 console.log(Array.isArray("yes")) //false
 console.log(Array.isArray(12)) //false
