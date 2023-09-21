@@ -12,6 +12,12 @@ Educational Psychology Consultant: dyoung@appacademy.io
 
 ---
 
+## Lecture Recordings
+
+[Section 1](https://docs.google.com/spreadsheets/d/1k4F0KWV-eHpt3xLgt0t3FGl-ovnxo7O5dEhQR_4L0bU/edit#gid=0)
+
+---
+
 ## Documentation
 
 [MDN Web Docs](https://developer.mozilla.org/en-US/)
