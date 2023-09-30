@@ -23,8 +23,17 @@
   - .toLowerCase()
   - .splice()
   - .slice()
+  - .charAt()
   - .endsWith()
+  - .split()
+  - .join()
+  - .push()
+  - .pop()
+  - .unshift()
+  - .shift()
+  - .reverse()
   - typeof
+  - isArray()
 
 ## Suggested Practice
   - Practice Assessment
