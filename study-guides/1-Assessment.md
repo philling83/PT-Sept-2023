@@ -16,6 +16,16 @@
   - Strict equality (===) vs loose equality (==)
   - Helper Functions
 
+## Methods
+  - .includes()
+  - .indexOf
+  - .toUpperCase()
+  - .toLowerCase()
+  - .splice()
+  - .slice()
+  - .endsWith()
+  - typeof
+
 ## Suggested Practice
   - Practice Assessment
   - Vowel Counter
