@@ -22,15 +22,14 @@
     startMonth: "May",
     instructors: [{
       name: "Philip",
-      currentGame: "Pokemon Unite",
-      mostPlayed: [
-        "Cinderace", 
-        "Charizard"
-      ] 
+      currentGames: [
+        "Matroid Prime Remastered",
+        "Assassin's Creed Mirage",
+      ],
     }, {
       name: "Alan",
-      currentGame: "Zelda: Tears of the Kingdom",
-      hours: 100
+      currentGame: "Baldur's Gate 3",
+      hours: 100,
     }],
   }
   
