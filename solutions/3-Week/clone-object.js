@@ -18,6 +18,6 @@ let { green, ...objClone } = {
   yellow: "pentagon",
 };
 
-console.log(obj);
+console.log(obj);               // { red: "circle", blue: "square", green: "hexagon" }
 console.log(objClone);          // { red: "circle", blue: "square", yellow: "pentagon" }
 console.log(green);             // hexagon
