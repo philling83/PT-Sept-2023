@@ -21,3 +21,7 @@ Educational Psychology Consultant: dyoung@appacademy.io
 ## Documentation
 
 [MDN Web Docs](https://developer.mozilla.org/en-US/)
+
+---
+
+[Holiday Dates](/holiday-dates-2023.pdf)
