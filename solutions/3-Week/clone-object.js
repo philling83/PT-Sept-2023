@@ -3,8 +3,6 @@ Given obj below, use a combination of the spread and rest operator in a single
 statement to create a clone objClone that removes the green key-value pair
 and adds a yellow key with value pentagon.
 
-
-
 Hint: As a side effect, you will end up creating a green variable with value
 "hexagon".
 */
