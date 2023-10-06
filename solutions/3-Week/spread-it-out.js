@@ -4,7 +4,7 @@ uses spread operator syntax to return a single array.
 */
 
 const spreadItOut = (array1, array2) => {
-    return [...array1, ...array2];
+  return [...array1, ...array2];
 };
   
 console.log(spreadItOut([3,5,6], [1,2,3])); // => [3,5,6,1,2,3];

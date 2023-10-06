@@ -6,9 +6,9 @@ into arrRest/arrSpread and objRest/objSpread respectively.
 const arr = [1, "two", "3"];
 
 const obj = {
-    red: "circle",
-    blue: "square",
-    green: "hexagon",
+  red: "circle",
+  blue: "square",
+  green: "hexagon",
 };
 
 let [...arrRest] = arr;

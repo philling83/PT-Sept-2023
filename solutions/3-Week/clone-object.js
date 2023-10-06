@@ -8,9 +8,9 @@ Hint: As a side effect, you will end up creating a green variable with value
 */
 
 const obj = {
-    red: "circle",
-    blue: "square",
-    green: "hexagon",
+  red: "circle",
+  blue: "square",
+  green: "hexagon",
 };
 
 let { green, ...objClone } = {
