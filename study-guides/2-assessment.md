@@ -26,3 +26,4 @@
 ## Suggested Practice
   - POJO Basics Project
   - Advanced Array Project
+  - POJO Data Manipulation Project
