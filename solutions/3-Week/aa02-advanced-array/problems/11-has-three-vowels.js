@@ -33,7 +33,7 @@ let hasThreeVowels = function (string) {
   // let vowels = ['a', 'e', 'i', 'o', 'u'];
 
   // let vowelWords = vowels.filter(function (vowel) {
-  //   return (string.includes(vowel));
+  //   return string.includes(vowel);
   // });
 
   // return vowelWords.length >= 3;
