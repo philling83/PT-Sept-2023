@@ -3,18 +3,15 @@
 ## Scope
 
 - What is scope?
-
   - Scope determines what variables are available for use within any given line
     of a JavaScript program.
 
 - Advantages of Using Scope Correctly
-
   - `Security` - Restricting variables to only predefined sections of a program.
   - `Avoiding Namespace Collisions` - Allows you to reuse variables
     names in different scopes without causing errors.
 
 - Three types of scope
-
   - `Global` - Variables defined in the global scope.
     - Everything in js is an object. When running js in the browser the global
       scope represents the window when running js locally (Node) it represents the
@@ -63,7 +60,6 @@ makeSounds("woof");
 ---
 
 - Scope Chaining
-
   - JS will search through scopes, working upwards until it finds a match.
     - Inner scopes have access to outer scopes but outer scopes don't have
       access to inner scopes
@@ -105,3 +101,62 @@ sayHungry();
 | const |             |             | const x = 'Tom'; |  block   |   Temporal Dead Zone   |
 
 ---
+
+## Closures
+
+- What is Closure?
+  - A concept that allows inner functions to access the scope of outer functions
+  - Even after the outer function has returned an output
+  - Function bundled together with references to accessible variables
+
+- Why?
+  - Allows for data privacy
+  - Maintaining state
+  - Function factories
+
+```js
+const counterFactory = function(){
+  let count = 0;
+  
+  //incrementor (inner func) is creating a CLOSURE around the 'count' variable.
+  const incrementor = function(){
+    return count++;
+  };
+
+  return incrementor; //do not invoke! b/c it doesn't give us the function anymore if we ().
+};
+
+console.log(counterFactory);
+console.log(counterFactory());
+
+const updateCounterInside = counterFactory();
+console.log("from counter2:", updateCounterInside()); 
+console.log("from counter2:", updateCounterInside()); //2
+
+// console.log(count); //will this work?
+
+
+console.log("----------------Favorite Food Factory----------------")
+//1) build a higher order function called `favoriteFoodDB` that will take into its parameter a prefix. 
+
+const favoriteFoodDB = prefix => {
+  //2) inside the favoriteFoodDB: initialize an empty array that will hold a list of foods
+  let favFoods = [];
+
+  //3) inside the favoriteFoodDB: DEFINE and RETURN an inner function (call it `innerFunc`) that will take in a food as its parameter and adds the food to the favFoods array (how do we add things to an array?)
+  const innerFunc = food => {
+    //innerFunc has access to favFoods and continuously updates it with each call. It also has access to the prefix parameter. CREATING A CLOSURE around those variables.
+    favFoods.push(food);
+
+    //4) inside the `innerFunc`: after pushing the food into the favFoods array, return the prefix with the favFoods after joining it with comma separated spaces. (see example below);
+    return prefix + favFoods.join(", ");
+  }
+  // - remember to return the `innerFunc`
+  return innerFunc;
+};
+
+const addFood = favoriteFoodDB("My favorite desserts are ") //--> returns the `innerFunc` inside and stores it in the `addFood` variable.
+console.log(addFood("wings"));
+console.log(addFood("burgers"));
+console.log(addFood("chicken sandwiches")); //"My favorite desserts are wings, burgers, chicken sandwiches"
+```
