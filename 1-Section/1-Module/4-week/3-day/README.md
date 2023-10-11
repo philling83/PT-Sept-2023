@@ -135,7 +135,6 @@ console.log("from counter2:", updateCounterInside()); //2
 
 // console.log(count); //will this work?
 
-
 console.log("----------------Favorite Food Factory----------------")
 //1) build a higher order function called `favoriteFoodDB` that will take into its parameter a prefix. 
 
