@@ -129,9 +129,9 @@ const counterFactory = function(){
 console.log(counterFactory);
 console.log(counterFactory());
 
-const updateCounterInside = counterFactory();
-console.log("from counter2:", updateCounterInside()); 
-console.log("from counter2:", updateCounterInside()); //2
+const updateCounter1 = counterFactory();
+console.log("from counter1:", updateCounter1()); 
+console.log("from counter1:", updateCounter1()); //2
 
 // console.log(count); //will this work?
 
