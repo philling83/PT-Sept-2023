@@ -31,7 +31,7 @@ let myFunction = function(functionScope){
   let alsoFunctionScope = "I am also function scoped"
 
   if(!functionScope){
-    let blockScope = 'I am block scoped"
+    let blockScope = "I am block scoped"
   };
 };
 
@@ -120,7 +120,7 @@ const counterFactory = function(){
   
   //incrementor (inner func) is creating a CLOSURE around the 'count' variable.
   const incrementor = function(){
-    return count++;
+    return ++count;
   };
 
   return incrementor; //do not invoke! b/c it doesn't give us the function anymore if we ().
