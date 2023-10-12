@@ -11,12 +11,14 @@ the scorer's name (string) and a point value score (number).
 `updateScores(people)` should take EACH OBJECT in the array, then update 
 the point value under the key `score` by multiplying it by 10, and finally
 add each object with the updated score to a new array. Return the array at the end.
-Example 2:
+
+Example 1:
 let peeps = [
   {name: "Anthony", score: 1},
   {name: "Winnie", score: 2},
   {name: "Fred", score: 3},
 ];
+
 console.log(updateScores(peeps)); //=> [ {name: "Anthony", score: 10}, {name: "Winnie", score: 20},  {name: "Fred", score: 30}];
 ***********************************************************************/
 
