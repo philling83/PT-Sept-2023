@@ -1,5 +1,7 @@
 # `S1W3D4`
 
+## [Back to Study Guide](../../../../study-guides/2-assessment.md)
+
 ## Destructuring Discussion
 
 - Destructuring is just matching a pattern.

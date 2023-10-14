@@ -1,5 +1,7 @@
 # `S1W4D1`
 
+## [Back to Study Guide](../../../../study-guides/2-assessment.md)
+
 ## First Class Functions
 
 - First Class Function | MDN: [First-class Function]
