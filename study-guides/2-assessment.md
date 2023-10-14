@@ -11,6 +11,12 @@
   - Primitives vs Reference Types
   - Rest vs Spread
   - Destructuring
+  - Callbacks
+  - Scope
+    - let vs const vs var
+    - Scope chaining
+    - Hoisting
+  - Closures
 
 ## Methods
   - Object.keys()
@@ -24,6 +30,12 @@
   - reduce
 
 ## Suggested Practice
+  - Practice Assessment
   - POJO Basics Project
+  - Additional Practice Problems I
+  - Scope Project
+  - Callbacks Project
   - Advanced Array Project
+  - Additional Practice Problems II
+  - POJO Data Trivia Project
   - POJO Data Manipulation Project
