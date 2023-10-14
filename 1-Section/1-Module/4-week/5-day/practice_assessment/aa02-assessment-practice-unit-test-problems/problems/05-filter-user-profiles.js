@@ -24,23 +24,33 @@ output an array of names
 
 plan:
 
-return a filter users array
-every element pass element into cb, if output is true return true,
-then .map the array grabbing each user's name
+input array of obj, filter call back function
+output an array of names of the users who's value returned true from the callback function
+
+- initialized a results array
+- iterate through users array
+- grab the user, pass the user through the callback
+- if the result of the callback is true, push users name to the results array
+- return the results array
 ***********************************************************************/
 
-// function filterUserProfiles(users, filter) {
-//   // return users
-//   // .filter(user =>{
-//   //   if(filter(user)){
-//   //     return true
-//   //   }
-//   // })
-//   // .map(user => user.name)
 
-// }
 
-const filterUserProfiles = (users, filter) => users.filter(user => filter(user) ? true : false).map(user => user.name);
+function filterUserProfiles(users, filter) {
+  let res = [];
+
+  for (let i = 0; i < users.length; i++){
+    let user = users[i];
+
+    if (filter(user)) {
+      res.push(user.name)
+    }
+
+  }
+  return res;
+}
+
+// const filterUserProfiles = (users, filter) => users.filter(user => filter(user) ? true : false).map(user => user.name);
 
 // const facebookUsers = [
 //   { name: "John", age: "21", state: "Florida" },
