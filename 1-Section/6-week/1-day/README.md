@@ -58,7 +58,7 @@ JavaScript is a single threaded language that can be non-blocking.
 
 ## Threading
 
-![/images/threading-image](./threading.png)
+![Threading](../../../threading.png)
 _JavaScript is Single Threaded_
 
 In a single-threaded environment, only one command can be processed at a time.
