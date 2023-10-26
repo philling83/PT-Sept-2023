@@ -1,5 +1,7 @@
 # `S1W5D5`
 
+## [Back to Study Guide](../../../study-guides/3-assessment.md)
+
 ## Function Hoisting
 
 Similar to how JS can hoist variables it can also hoist functions.
