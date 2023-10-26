@@ -7,7 +7,7 @@
   - Understand terminologies like:
     -  base case, recursive case, recursive step
     -  Using recursion to help solve the original problem by...
-       -  solving many smaller sub-problems first
+       -  Solving many smaller sub-problems first
 - [String Interpolation](../1-Section/5-week/2-day/README.md)
 - [Immediately Invoked Function Expression](../1-Section/5-week/5-day/README.md) (IIFEs)
 - [Primitive vs. Reference types](https://open.appacademy.io/learn/js-py---pt-sep-2023-online/week-5---recursion-and-iifes/primitive-data-types-in-depth)
