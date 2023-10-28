@@ -1,6 +1,6 @@
 # `S1W4D1`
 
-## [Back to Study Guide](../../../../study-guides/2-assessment.md)
+## [Back to Study Guide](../../../study-guides/2-assessment.md)
 
 ## First Class Functions
 

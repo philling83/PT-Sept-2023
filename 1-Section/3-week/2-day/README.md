@@ -1,6 +1,6 @@
 # `S1W3D2`
 
-## [Back to Study Guide](../../../../study-guides/2-assessment.md)
+## [Back to Study Guide](../../../study-guides/2-assessment.md)
 
 ## Plain Old JavaScript Objects (POJOs)
 
