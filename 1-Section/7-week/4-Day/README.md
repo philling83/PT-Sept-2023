@@ -1,4 +1,4 @@
-# `M2W7D4`
+# `S1W7D4`
 
 ## Polymorphism
 
