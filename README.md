@@ -2,9 +2,12 @@
 
 ## Student Resources
 
-Student Dashboard: [Click Here](https://appacademy22020.my.site.com/trackers/s/)
+[OLD] Flex Request Dashboard: [Click Here](https://appacademy22020.my.site.com/trackers/s/)
   - Default Password: 1234
-  - View grades, strikes, request flex days, etc.
+  - Mainly for flex day requests
+
+[NEW] Student Dashboard: [Click Here](https://my.appacademy.io/login)
+  - View grades, strikes, pairs, etc.
 
 Administrative Help Email: help@appacademy.io
 
