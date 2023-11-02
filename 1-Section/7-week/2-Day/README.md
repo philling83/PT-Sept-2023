@@ -1,4 +1,4 @@
-# `M2W7D2`
+# `S1W7D2`
 
 ## Welcome to Mod2:
 
