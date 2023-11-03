@@ -28,5 +28,5 @@ even though it has the same name because the result is equivalent
 ### Static Variables
 
 - Similar to static methods, they are not accessible via instances
-- Are NOT declared inside the constructor.
+- Are NOT declared inside the constructor
 - Useful for caching information about the class
