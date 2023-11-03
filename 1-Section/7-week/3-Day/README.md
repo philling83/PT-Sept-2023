@@ -22,7 +22,7 @@ What is a `class`?
   on the `class`
 - Some of our favorite datatypes such as `Array`, and `Object` are classes. For
   example the method `someArray.forEach()` is callable in this way because it is
-  an instance method defined on the class `Array`.
+  an instance method defined on the class `Array`
   - [Array Constructor](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Array)
   - Notice how we can create an array using the `new` keyword
 
