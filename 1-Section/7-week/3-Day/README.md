@@ -5,10 +5,10 @@
 What is `OOP`?
 
 - `Object Oriented Programming` is a design pattern that helps to break down large, complex problems into simpler pieces.
-- The **main concept** behind `OOP` is the idea that you can group data and related actions together and treat them as a single entity within a larger system.
+- The **main concept** behind `OOP` is the idea that you can group data and related actions together and treat them as a single entity within a larger system
 - The characteristics of an `object` are called `properties` or `attributes` of the object. (*keys and values that are just data*)
 - The actions of the `object` are called `methods`. (*the objects functions*)
-- Think of `properties` as an `object`'s 'Adjectives' and `methods` as the 'Verbs'.
+- Think of `properties` as an `object`'s 'Adjectives' and `methods` as the 'Verbs'
 - 4 Main Pillars
   - Encapsulation
   - Abstraction
