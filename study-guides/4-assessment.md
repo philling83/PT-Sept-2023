@@ -38,7 +38,7 @@
         console.log(list); // [ 1,5,3,9,11,-3,10]
         ```
 
-- <span style="color:#cd1d1d;">**Encapsulation**</span> (hiding the how): **hiding** and protecting the **implementation details** (**the how**) and properties behind object's methods. 
+- <span style="color:#cd1d1d;">**Abstraction/Encapsulation**</span> (hiding the how): **hiding** and protecting the **implementation details** (**the how**) and properties behind object's methods. 
     - Whoever or whatever uses our class object API should only need to worry about what it can do for them (**the what**).
     - Think of `array.push` method. We don't care about the implementation details, we only care about what `.push` takes in, what it can do for us, and what it spits out.
 - <span style="color:#cd1d1d;">**Inheritance**:
