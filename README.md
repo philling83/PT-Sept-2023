@@ -31,6 +31,8 @@ Educational Psychology Consultant: dyoung@appacademy.io
 
 [Chai Docs](https://www.chaijs.com/api/bdd/)
 
+[Chai Cheatsheet](https://devhints.io/chai)
+
 ---
 
 ## Holiday Dates
