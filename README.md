@@ -27,6 +27,10 @@ Educational Psychology Consultant: dyoung@appacademy.io
 
 [Mocha CLI Commands](https://mochajs.org/#command-line-usage)
 
+[Mocha Docs](https://mochajs.org/)
+
+[Chai Docs](https://www.chaijs.com/api/bdd/)
+
 ---
 
 ## Holiday Dates
