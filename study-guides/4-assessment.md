@@ -1,22 +1,22 @@
-# Weeks 7+8 Study Guide
+# Weeks 7 + 8 Study Guide
 
 ## Concepts
-- DRY / SRP
-- CommonJS Modules (import / export)
-- Object Oriented Programming
+- [DRY / SRP](../1-Section/7-week/2-day/README.md)
+- [CommonJS Modules](../1-Section/7-week/2-day/README.md) (import / export)
+- [Object Oriented Programming](../1-Section/7-week/3-day/README.md)
   - Abstraction
   - Encapsulation
   - Inheritance
   - Polymorphism
-- Classes (ES5 vs ES6)
-  - Static vs instance methods
+- [Classes](../1-Section/7-week/3-day/README.md) [(ES5 vs ES6)](https://open.appacademy.io/learn/js-py---pt-sep-2023-online/week-8---context-and-tdd/es5-classes)
+  - [Static vs instance methods](../1-Section/7-week/4-day/README.md)
   - Constructor
   - Super
-- Context
+- [Context](../1-Section/8-week/1-day/README.md)
   - `this` keyword
   - bind vs apply vs call
   - Arrow function vs function declaration
-- Types of errors
+- [Error Handling](../1-Section/8-week/3-day/README.md)
 - Testing with Mocha / Chai
 
 ## Classes & OOP Terminology  
@@ -33,8 +33,6 @@
     - **`Classes in Two Parts`**:
         - **Interface(the what)**: what can this class do for us or other code?
         - **Implementation(the how)**: how the class actually does what it does
-
-
 
 - <span style="color:#cd1d1d;">**Instantiate**</span> (invoking): Class is just a framework (blueprint) until it is **instantiated** (built).
     - think function declarations vs. function invocations
