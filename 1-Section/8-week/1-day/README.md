@@ -1,5 +1,7 @@
 # `S1W8D1`
 
+## [Back to Study Guide](../../../study-guides/4-assessment.md)
+
 ## Context
 ### Context refers to the value of `this` within a function and `this` refers to where a function is invoked.
 - If a function is invoked on the object it was created in, its context stays the same
