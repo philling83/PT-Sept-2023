@@ -1,6 +1,25 @@
 # Weeks 7+8 Study Guide
 
-## <span style="color:#674ea7;">Classes & OOP Terminology</span>  
+## Concepts
+- DRY / SRP
+- CommonJS Modules (import / export)
+- Object Oriented Programming
+  - Abstraction
+  - Encapsulation
+  - Inheritance
+  - Polymorphism
+- Classes
+  - Static vs instance methods
+  - Constructor
+  - Super
+- Context
+  - `this` keyword
+  - bind vs apply vs call
+  - Arrow function vs function declaration
+- Types of errors
+- Testing with Mocha / Chai
+
+## Classes & OOP Terminology  
 - <span style="color:#cd1d1d;">**Object Oriented Programming**</span>:
     - Object Oriented Programming is one of many **design patterns** to **break down a complex problem** into **smaller parts** that are readable, maintainable, and interactive (API).
     - The main concept behind **OOP** is the idea that we can **identify, group, and organize related data and behaviors together** in order to treat them as a single entity within a larger system.
@@ -67,3 +86,12 @@
     - Function **overriding** (I'm doing it my way...): child class has own implementation of a function from one of its ancestor classes (usually the parent).
         - parent's `toString()` method --> logs `"Hi I am John"`
         - child's `toString()` override --> logs array instead of string --> `["Hi", "I", "am", "John"]`
+
+## Suggested Practices
+- Practice Assessment
+- Friendly and Evil Dragon
+- Manager and Employee Salaries
+- Unit Tests w/ Mocha and Chai
+- TDD Style Project
+- Custom Error Types
+- Rock Paper Scissors
