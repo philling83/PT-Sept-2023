@@ -8,7 +8,7 @@
   - Encapsulation
   - Inheritance
   - Polymorphism
-- Classes
+- Classes (ES5 vs ES6)
   - Static vs instance methods
   - Constructor
   - Super
