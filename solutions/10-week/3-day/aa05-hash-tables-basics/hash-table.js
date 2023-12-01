@@ -11,32 +11,32 @@ class KeyValuePair {
 class HashTable {
 
   constructor(numBuckets = 4) {
-    //!!START
+
     this.count = 0;
     this.capacity = numBuckets;
     this.data = new Array(this.capacity).fill(null);
-    //!!END
+
   }
 
   hash(key) {
-    //!!START
+
     // First 8 characters of sha256 hash
     const hashHexString = sha256(key).slice(0, 8);
 
     // Convert to int
     return parseInt(`0x${hashHexString}`);
-    //!!END
+
   }
 
   hashMod(key) {
-    //!!START
+
     // Get index after hashing
     return this.hash(key) % this.capacity;
-    //!!END
+
   }
 
   insertNoCollisions(key, value) {
-    //!!START
+
     // Find the bucket index
     const index = this.hashMod(key);
 
@@ -46,11 +46,11 @@ class HashTable {
     } else {
       throw Error('hash collision or same key/value pair already exists!');
     }
-    //!!END
+
   }
 
   insertWithHashCollisions(key, value) {
-    //!!START
+
     const index = this.hashMod(key);
     const newPair = new KeyValuePair(key, value);
 
@@ -63,11 +63,11 @@ class HashTable {
     }
 
     this.count++;
-    //!!END
+
   }
 
   insert(key, value) {
-    //!!START
+
     const index = this.hashMod(key);
 
     let currentPair = this.data[index];
@@ -93,7 +93,7 @@ class HashTable {
 
       this.count++;
     }
-    //!!END
+  
   }
 
 }
