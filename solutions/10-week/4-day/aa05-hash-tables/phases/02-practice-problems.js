@@ -1,5 +1,5 @@
 function anagrams(str1, str2) {
-  //!!START
+
   if (str1.length !== str2.length) return false;
 
   const counts = {};
@@ -23,33 +23,33 @@ function anagrams(str1, str2) {
   }
 
   return true;
-  //!!END
+
 }
 
 
 function commonElements(arr1, arr2) {
-  //!!START
+
   const set1 = new Set(arr1);
 
   return arr2.filter(x => set1.has(x));
-  //!!END
+
 }
 
 
 function duplicate(arr) {
-  //!!START
+
   const set = new Set();
 
   for (let i = 0; i < arr.length; i++) {
     if (set.has(arr[i])) return arr[i];
     set.add(arr[i]);
   }
-  //!!END
+
 }
 
 
 function twoSum(nums, target) {
-  //!!START
+
   const numSet = new Set();
 
   for (let i = 0; i < nums.length; i++) {
@@ -58,12 +58,12 @@ function twoSum(nums, target) {
   }
 
   return false;
-  //!!END
+  
 }
 
 
 function wordPattern(pattern, strings) {
-  //!!START
+
   const matches = {};
   const wordSet = new Set();
 
@@ -80,7 +80,7 @@ function wordPattern(pattern, strings) {
   }
 
   return true;
-  //!!END
+
 }
 
 
