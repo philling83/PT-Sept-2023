@@ -52,7 +52,7 @@ There are a large number of sorting algorithms to choose from, each with its own
 - `Merge Sort`
 - `Quick Sort`
 
-While we do have access to the `.sort` method, learning how to manipulate the array is a good way to understand how the sorting algorithms work, and it may come up in a tech interview!
+While we do have access to the `.sort` method (merge sort + insertion sort = Timsort in V8 engine), learning how to manipulate the array is a good way to understand how the sorting algorithms work, and it may come up in a tech interview!
 
 Learning our sorts will teach us techniques like in-place array swaps, sliding windows, divide and conquer and more.
 
