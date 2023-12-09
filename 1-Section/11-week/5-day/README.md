@@ -44,7 +44,7 @@ console.log(findLastNodes(simpleTree)); // -> [ 4, 8, 10 ]
 
 ## `Sorting`
 
-There are a large number of sorting algorithms to choose from, each with it's own strengths and weaknesses. We are going to focus on the following sorting algorithms:
+There are a large number of sorting algorithms to choose from, each with its own strengths and weaknesses. We are going to focus on the following sorting algorithms:
 
 - `Bubble Sort`
 - `Selection Sort`
