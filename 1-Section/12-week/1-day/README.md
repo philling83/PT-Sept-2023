@@ -31,7 +31,7 @@
 
 ### Adjacency Lists
 
-![graphs](./graphs.png)
+![graphs](./../../../images/graphs.png)
 
 ```js
 const graph1 = {
@@ -56,7 +56,7 @@ const graph3 = {
 };
 ```
 
-![undirected](./undirected.svg)
+![undirected](./../../../images/undirected.svg)
 
 ```js
 //an undirected graph may look like this:
