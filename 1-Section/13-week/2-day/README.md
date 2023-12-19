@@ -25,6 +25,8 @@ You can think of a webpage like a house
 
 **Later** we will reintroduce JavaScript in the context of the browser
 
-[](../../../images/html.png)
+[HTML](../../../images/html.png)
 
-<span color="red">Opening/Closing Tags</span>
+- <span style="color:green">Element</span>
+- <span style="color:red">Opening/Closing Tags</span>
+- <span style="color:purple">Attribute</span>
