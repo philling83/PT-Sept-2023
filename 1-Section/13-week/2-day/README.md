@@ -25,6 +25,8 @@ You can think of a webpage like a house
 
 **Later** we will reintroduce JavaScript in the context of the browser
 
+![DOM](../../../images/dom-tree.png)
+
 ![HTML](../../../images/html.png)
 
 - Green - <span style="color:green;">Element</span>
