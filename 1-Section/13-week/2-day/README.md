@@ -27,6 +27,6 @@ You can think of a webpage like a house
 
 ![HTML](../../../images/html.png)
 
-<span style="color:green">Element</span>
-<span style="color:red">Opening/Closing Tags</span>
-<span style="color:purple">Attribute</span>
+- <span style="color:green;">Element</span>
+- <span style="color:red;">Opening/Closing Tags</span>
+- <span style="color:purple;">Attribute</span>
