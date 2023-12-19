@@ -10,8 +10,8 @@
 
 ## Website Building Blocks
 
-- HTML: Provides structure and layout
-- CSS: Provides look, feel, and positioning
+- HTML (HyperText Markup Language): Provides structure and layout
+- CSS (Cascading Style Sheets): Provides look, feel, and positioning
 - JavaScript: Provides interactivity and complex functionality
 
 You can think of a webpage like a house 
