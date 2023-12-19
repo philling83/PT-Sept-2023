@@ -30,3 +30,11 @@ You can think of a webpage like a house
 - Green - <span style="color:green;">Element</span>
 - Red - <span style="color:red;">Opening/Closing Tags</span>
 - Purple - <span style="color:purple;">Attribute</span>
+
+## Wireframes
+
+![profile-page](../../../images/profile-page.png)
+
+![containers-wireframe](../../../images/boxes-wireframe.png)
+
+![elements-wireframe](../../../images/elements.png)
