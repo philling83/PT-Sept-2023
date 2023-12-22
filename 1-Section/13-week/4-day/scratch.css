@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('./import.css');
+
+body{
+  background-color: rgb(132, 134, 147);
+}
+
+#div1 {
+  color: red;
+  background-color: blue;
+
+}
+
+
+.special.active{
+  color: red;
+}
+
+div.special, p#info{
+  color: green;
+}
+
+div > p{
+  border: 1px solid blue;
+}
+
+h1 + h2{
+  color: green;
+}
+
+.title:active{
+  color: green;
+}
+
+p{
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-family: 'Muli';
+}
+
+.demo{
+  border: 1px solid blue;
+  width: 500px;
+  height: 500px;
+  /* font-size: 50px; */
+  background-image: url('https://assets-global.website-files.com/5dcc7f8c449e597ed83356b8/5dd1a90aef6ed91dc5bfece5_logo-emblem-black1.webp');
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.title{
+  text-align: center;
+  border: 1px solid black;
+  width: fit-content;
+}

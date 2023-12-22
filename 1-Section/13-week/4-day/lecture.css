@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+body {
+    background-color: rgb(132, 134, 147);
+}
+
+p{
+    /* color: red; */
+
+    text-decoration: underline;
+}
+
+.special{
+    background-color: green;
+
+}
+
+.active{
+    background-color: red;
+
+}
+
+
+#special{
+    color: cyan;
+}
+
+#active{
+    color: yellow;
+}
+
+[href]{
+    color: pink;
+}
+
+.special.active {
+    font-size: 30px;
+}
+
+.lecture-main{
+    border:solid 1px green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selectors-box{
+    border:solid 1px green;
+    margin: 5px;
+}
+
+.sub-selector-box{
+    border: solid 1px red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+div abbr {
+    text-transform: uppercase;
+    color: blue;
+}
+
+div>p {
+    color: red;
+}
+
+h1+h2 {
+    font-style: italic;
+}
+
+.special:hover {
+    background-color: aqua;
+}
+
+.anchor:visited{
+    color: green;
+}
+
+p::before {
+    background-color: lightblue;
+    border-right: 4px solid violet;
+    content: ':-) ';
+    margin-right: 4px;
+    padding-left: 4px;
+}
+
+/* div>p {
+    color: red;
+} */
+
+/* .mixed-selector{
+    color: pink;
+} */
+
+/* [href]{
+    color: green;
+} */
+
+/* .sticky{
+    position: sticky;
+    height:500px;
+    width:200px;
+    background-color: yellow;
+    top: 10px;
+} */

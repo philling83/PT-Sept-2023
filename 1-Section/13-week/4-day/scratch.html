@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./lecture.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+<div class='lecture-main'>
+
+  <div class="selectors-box">
+
+    <div class="sub-selector-box">
+      <h3>
+        Type selector:
+      </h3>
+      <p>
+        I am a p tag! I will share the same style as other p tags if
+        we use a type selecor!
+      </p>
+      <p>
+        I am another p tag! I look like the one above me!
+      </p>
+      <p>
+        another p tag here.
+      </p>
+    </div>
+
+    <div class="sub-selector-box">
+      <h3>
+        Class selectors:
+      </h3>
+      <div class="special">
+        I have a class of special!
+      </div>
+      <div class="active">
+        well I have a class of active!
+      </div>
+    </div>
+
+    <div class="sub-selector-box">
+      <h3>
+        ID selectors:
+      </h3>
+      <div id="special">
+        I have an id of special
+      </div>
+      <div id="active">
+        I have an id of active
+      </div>
+
+    </div>
+
+    <div class="sub-selector-box">
+      <h3>
+        attribute selectors:
+      </h3>
+      <a class='anchor' target ="_blank" href="https://www.google.com/">I have an attribute of href! selecte me with an attribute selector!</a>
+    </div>
+
+    <div class="sub-selector-box">
+      <h3>
+        Type selectors mixed with classes
+      </h3>
+      <p class="mixed-selector">
+        I have a class and a type selector style applied
+      </p>
+
+    </div>
+
+  </div>
+
+
+
+  <div class="selectors-box sticky-cont">
+
+
+  <div class="sub-selector-box">
+    <h3>
+      Compound class selectors:
+    </h3>
+    <div class="special active">
+      I have special and active classes!
+    </div>
+    <div class="active">
+      I am just active
+    </div>
+    <div class="special">
+      I am just special
+    </div>
+    <p id='info'>
+      I am a p tag with an id of info
+    </p>
+
+  </div>
+
+  <div class="sub-selector-box">
+    <h3>
+      Combine selectors:
+    </h3>
+    select multiple classes to apply styles to.
+    <div class="multi">
+      I have a class of multi, but i share styling with the div below me!
+    </div>
+    <div class="select">
+      I have a class of select, but i share styling with the div above me!
+    </div>
+  </div>
+
+  <div class="sub-selector-box">
+    <h3>
+      Combinators decendant selectors:
+    </h3>
+    <div>
+      <span>Acronyms:</span>
+      <p>Hello</p>
+      <span>I love coding in the following languages!</span>
+      <abbr title="HyperText Markup Language">html</abbr>
+      <abbr title="Cascading Style Sheets">css</abbr>
+    </div>
+  </div>
+
+    <div class="sub-selector-box">
+      <h3>
+        Direct Child Sibling selector:
+      </h3>
+
+      <div>
+        <p>Hello I'm a paragraph!</p>
+        <span>
+          <p>Hello I'm a paragraph ins`id`e of a span!</p>
+        </span>
+      </div>
+
+    </div>
+
+  <div class="sub-selector-box">
+    <h3>
+      Adjacent Sibling selector:
+    </h3>
+    <h1>Big header</h1>
+    <h2>This one is styled because it is directly adjacent to the H1</h2>
+    <h2>This one is NOT styled because there is no H1 right before it</h2>
+  </div>
+
+  <div class="sub-selector-box">
+    <h3>
+      Psuedo-classes:
+    </h3>
+
+    <div class="special">
+      <p>I am special!</p>
+    </div>
+
+  </div>
+
+  <div class="sub-selector-box">
+    <h3>
+      Psuedo-selector:
+    </h3>
+
+    <p>This is the first paragraph</p>
+    <p>This is the second paragraph</p>
+    <p>This is the third paragraph</p>
+
+  </div>
+
+</div>
+
+</div>
+
+</body>
+</html>
