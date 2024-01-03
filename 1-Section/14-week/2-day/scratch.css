@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(155, 155, 131);
+}
+
+.flex-container{
+    height: 800px;
+    width: 800px;
+    border:4px solid black;
+
+}
+
+.flex-item{
+    height:100px;
+    width:100px;
+    border:1px solid red;
+    margin:10px;
+    background-color: green;
+    font-size: 30px;
+}
