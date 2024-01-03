@@ -1,0 +1,22 @@
+{
+    "name": "tic-tac-toe-command-line-game",
+    "version": "1.0.0",
+    "description": "",
+    "main": "play-game.js",
+    "scripts": {
+        "test": "mocha --exit",
+        "test-1": "mocha test/01-cursor-setup-spec.js --exit",
+        "test-2": "mocha test/02-ttt-setup-spec.js --exit",
+        "test-3": "mocha test/03-ttt-game-logic-spec.js --exit",
+        "test-4": "mocha test/04-cursor-movement-spec.js --exit",
+        "test-5": "mocha test/05-keypress-commands-spec.js --exit",
+        "test-6": "mocha test/06-game-play-with-keypresses-spec.js --exit"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "chai": "^4.3.4",
+        "keypress": "^0.2.1",
+        "mocha": "^10.2.0"
+    }
+}
