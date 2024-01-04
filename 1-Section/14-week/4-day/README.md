@@ -7,7 +7,7 @@
 - Gives more weight to a certain property, overriding all previous styling rules for
 that specific property
 - Can be useful when the desire is to have an specific element look a certain way,
-regardless of other stylings
+regardless of other stylings (utility classes)
 - Should be used sparingly as it acts more like a band-aid
 
 ## [`Normalize CSS`](https://github.com/necolas/normalize.css)
