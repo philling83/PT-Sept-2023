@@ -1,6 +1,6 @@
 # `S1W14D4`
 
-## !important
+## `!important`
 
 ![](./thisisimportant.jpeg)
 
@@ -9,6 +9,12 @@ that specific property
 - Can be useful when the desire is to have an specific element look a certain way,
 regardless of other stylings
 - Should be used sparingly as it acts more like a band-aid
+
+## [`Normalize CSS`](https://github.com/necolas/normalize.css)
+
+- Every browser has their own default styles defined in the `user agent stylesheet`
+- In order to standardize styles across browsers, a `reset.css` or `normalize.css` should
+be inserted as the first stylesheet rendered
 
 ## `CSS Frameworks`
 
