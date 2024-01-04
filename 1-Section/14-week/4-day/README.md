@@ -54,9 +54,11 @@ be inserted as the first stylesheet rendered
 ### Flex
 - If you want the layout to adapt to the content
 - One dimensional (orientation based on a main axis)
+- Small individual components
 - Navbars, card layouts
 
 ### Grid
 - If you want the content to adapt to the layout
 - Two dimensional (orientation based on two axises)
+- Large scale page layout
 - eg calendars, newspaper-style layouts, photo collages
