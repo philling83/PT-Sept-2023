@@ -46,3 +46,17 @@ be inserted as the first stylesheet rendered
   - un-opinionated
   - not as robust as some others
   - highly customizable
+
+## `Grid`
+
+[Must watch](https://www.youtube.com/watch?v=3elGSZSWTbM)
+
+### Flex
+- If you want the layout to adapt to the content
+- One dimensional (orientation based on a main axis)
+- Navbars, card layouts
+
+### Grid
+- If you want the content to adapt to the layout
+- Two dimensional (orientation based on two axises)
+- eg calendars, newspaper-style layouts, photo collages
