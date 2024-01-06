@@ -1,7 +1,7 @@
 # `Weeks 13 + 14 Study Guide`
 
 ## Basic Design Principles
-- [Reading link](https://open.appacademy.io/learn/js-py---pt-sept-2023-online/week-13---html-and-css/design-principles)
+- [Reading link](https://open.appacademy.io/learn/js-py---pt-sep-2023-online/week-13---html-and-css/design-principles)
 - Common ones to understand
   - `White Space`
   - `Colors`
@@ -11,7 +11,7 @@
 
 
 ## HTML
-- [Reading link](https://open.appacademy.io/learn/js-py---pt-sept-2023-online/week-13---html-and-css/basics-of-html)
+- [Reading link](https://open.appacademy.io/learn/js-py---pt-sep-2023-online/week-13---html-and-css/basics-of-html)
 
 - HTML Semantics
   - Elements
@@ -25,7 +25,7 @@
 ## CSS
 
 ### CSS Selectors
-- [Reading link](https://open.appacademy.io/learn/js-py---pt-sept-2023-online/week-13---html-and-css/css-selectors)
+- [Reading link](https://open.appacademy.io/learn/js-py---pt-sep-2023-online/week-13---html-and-css/css-selectors)
 
 - Different Selectors and Combinators we covered
 
@@ -38,7 +38,7 @@
 - Given this prompt... use x selector (like descendant) to change y...
 
 ### CSS Properties: Fonts
-- [Reading link](https://open.appacademy.io/learn/js-py---pt-sept-2023-online/week-13---html-and-css/css--type--properties-and-imports)
+- [Reading link](https://open.appacademy.io/learn/js-py---pt-sep-2023-online/week-13---html-and-css/css--type--properties-and-imports)
   
 - Differences between serif vs. sans-serif fonts.
   
@@ -49,7 +49,7 @@
 
 
 ### CSS Properties: Box Model
-- [Reading link](https://open.appacademy.io/learn/js-py---pt-sept-2023-online/week-13---html-and-css/the-box-model)
+- [Reading link](https://open.appacademy.io/learn/js-py---pt-sep-2023-online/week-13---html-and-css/the-box-model)
 
 - Understanding Box Sizing (what happens to `borders` and `paddings` if `box-sizing:border-box` is applied?)
 - Box Model
@@ -59,7 +59,7 @@
   - Content (our item)
 
 ### CSS Properties: Positioning
-- [Reading link](https://open.appacademy.io/learn/js-py---pt-sept-2023-online/week-13---html-and-css/css-positioning)
+- [Reading link](https://open.appacademy.io/learn/js-py---pt-sep-2023-online/week-13---html-and-css/css-positioning)
 
 - `position` property and its values
   - static
