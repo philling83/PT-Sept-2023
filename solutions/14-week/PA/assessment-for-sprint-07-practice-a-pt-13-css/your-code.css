@@ -1,0 +1,88 @@
+/* Problem 1 */
+body {
+  background: #EFEFEF;
+}
+
+fieldset {
+  background: white;
+}
+
+/* ------------------------------------- */
+
+/* Problem 2 */
+.blue-box,
+.orange-box {
+  box-sizing: border-box;
+  height: 40px;
+  width: 40px;
+
+  position: absolute;
+}
+
+.outer-layer-2 {
+  position: relative;
+}
+
+.blue-box {
+  background-color: blue;
+}
+
+.orange-box {
+  background: orange;
+  top: -40px;
+}
+
+/* Forest's Solution */
+/* .blue-box,
+.orange-box {
+  box-sizing: border-box;
+  height: 40px;
+  position: relative;
+  width: 40px;
+}
+
+.blue-box {
+  background-color: blue;
+  top: 40px;
+}
+
+.orange-box {
+  background: orange;
+  bottom: 40px;
+} */
+
+/* ------------------------------------- */
+
+/* Problem 3 */
+.outer-layer-3 p+p {
+  color: orange;
+}
+
+/* #problem-3a+p {
+  color: orange;
+}
+
+#problem-3b+p {
+  color: orange;
+} */
+
+/* ------------------------------------- */
+
+/* Problem 4 */
+.outer-layer-4 {
+  box-shadow: 0 0 4px rgba(0, 0, 255, 0.6);
+}
+
+/* ------------------------------------- */
+
+/* Problem 5 */
+.outer-layer-5 {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+/* ------------------------------------- */
+
+.bold.uppercase {
+  font-family: "Courier New";
+}
