@@ -37,4 +37,4 @@ Educational Psychology Consultant: dyoung@appacademy.io
 
 ## Holiday Dates
 
-![Holiday Dates](/images/holiday-2024.jpg)
+![Holiday Dates](/images/holiday_2024.jpg)
