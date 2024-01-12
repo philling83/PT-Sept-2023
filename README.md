@@ -3,7 +3,7 @@
 ## Student Resources
 
 [NEW] Student Dashboard: [Click Here](https://my.appacademy.io/login)
-  - View grades, strikes, pairs, etc.
+  - Make flex requests, view grades, strikes, pairs, etc.
 
 Administrative Help Email: help@appacademy.io
 
