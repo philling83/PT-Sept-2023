@@ -42,7 +42,7 @@ callbackHell();
 
 ## Creating your own promises
 
-If your async function does not automatically return a promise, like setTimeout/setInterval, you can use the promise constructor
+If your async function does not automatically return a promise, you can use the promise constructor
 
 Some async code, like fetch(), returns a promise by default. You would NOT use the promise constructor in that case
 
