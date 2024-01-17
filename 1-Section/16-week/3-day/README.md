@@ -6,7 +6,7 @@
 - Since the fetch API is provided by almost all major browsers, you can use the Fetch API by opening up the "Console" tab in Chrome or Firefox to use the built-in fetch function.
 
 ### Syntax
-fetch('URL', { options }) -> returns a promise
+fetch( 'URL', { options } ) -> returns a promise
 
 ### `GET` request
 ```
