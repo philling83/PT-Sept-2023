@@ -1,7 +1,7 @@
 # `Weeks 15 + 16 Study Guide`
 
 ## Topics
-- HyperText Transfer Protocol
+- HyperText Transfer Protocol (HTTP)
     - Request / Response Components
         - Methods
         - Headers
