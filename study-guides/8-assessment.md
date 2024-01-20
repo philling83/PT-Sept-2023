@@ -19,7 +19,7 @@
 - Music Archive API Docs Long Practice
 - Practice Assessment
 - Promises Practices from Wk16 Mon
-- Fetch Practices from W16 Tues
+- Fetch Practices from Wk16 Tues
 
 ---
 
