@@ -25,7 +25,7 @@ Common properties include:
 - history
 - location
 - navigator
-- document (this is the DOM IE your HTML)
+- document (this is the DOM ie your HTML)
 
 Common methods include:
 
@@ -42,7 +42,7 @@ Common methods include:
 ### Document Object Model (DOM)
 - DOM, or Document Object Model. The DOM contains a collection of nodes (HTML elements), that can be accessed and manipulated. That sounds an awful lot like window.document doesn't it? Well that's because that's exactly what it represents! In essence, the document object is a Web page, and the DOM represents the object hierarchy of that document.
 
-- Your html page, the document that you are rendering and manipulating.
+- Your HTML page, the document that you are rendering and manipulating.
 
 ![Alt text](image-2.png)
 
@@ -50,7 +50,7 @@ Common methods include:
 
 - HTML elements can be seen as children of their parent body / head.
 
-- one example of selecting an html element is: document.getElementById() --> show a javaScript representation of an html element.
+- one example of selecting an html element is: document.getElementById() --> show a JavaScript representation of an HTML element.
 
  - an HTML element is a big object with a lot of properties. notable properties are innerText, innerHTML, children, childNodes
 
