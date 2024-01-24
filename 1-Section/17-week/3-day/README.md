@@ -6,7 +6,7 @@ Methods for element selection
 
 | Code  | Return Value | Live or Static |
 | -------- | --------| ------- |
-| document.getElementById() | HTMLElement  | Live |
+| document.getElementById() | HTMLElement  | Static |
 | document.getElementsByClassName() | HTMLCollection  | Live |
 | document.getElementsByTagName() | HTMLCollection  | Live |
 | document.getElementsByName() | NodeList | Live |
