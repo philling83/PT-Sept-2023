@@ -1,0 +1,43 @@
+li {
+    list-style-type: none;
+    width: 33%;
+    padding: 10px 15px;
+    margin-bottom: 5px;
+    border-radius: 25px;
+}
+
+li[data-type="drinks"]{
+    background-color: aqua;
+}
+
+li[data-type="bakery"] {
+    background-color: brown;
+}
+
+li[data-type="canned"]{
+    background-color: grey;
+}
+
+li[data-type="dairy"] {
+    background-color: bisque;
+}
+
+li[data-type="frozen"] {
+    background-color: blue;
+}
+
+li[data-type="meats"] {
+    background-color: red;
+}
+
+li[data-type="produce"] {
+    background-color: greenyellow;
+}
+
+li[data-type="toiletries"] {
+    background-color: yellow;
+}
+
+li[data-type="other"] {
+    background-color: pink;
+}
