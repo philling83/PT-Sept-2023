@@ -1,0 +1,80 @@
+.main-comments{
+    width: 1200px;
+    height: 1000px;
+    border: solid black 1px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0px;
+}
+
+.comments-box{
+    height: 75%;
+    width: 90%;
+    border: 1px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.comment-container{
+    border: solid 1px pink;
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 10%;
+    /* max-height: 50%; */
+    align-items: center;
+
+    /* flex-wrap: nowrap; */
+
+
+}
+
+.comment{
+    border: solid 1px blue;
+    width: 80%;
+    /* height: 80%; */
+    /* max-height: 100%; */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    /* flex-wrap: wrap; */
+
+}
+
+.delete-comment-button{
+    width: 15%;
+    height: 80%;
+}
+
+.input-container{
+    height: 10%;
+    width: 90%;
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.input-field{
+    height: 35%;
+    width: 65%;
+
+    font-size: 20px;
+}
+
+.post-comment-button{
+    height: 40%;
+    width: 20%;
+
+}

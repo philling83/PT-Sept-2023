@@ -1,0 +1,10 @@
+@import url('./css/main-pic.css');
+@import url('./css/main-comment.css');
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
