@@ -104,6 +104,8 @@ Wow I printed after myMid!!
 This is the / response
 ```
 
+![express-middleware-chain](../../../images/express-middleware-chain.png)
+
 ## Error Handling Middleware
 
 Express handles errors through middleware.
