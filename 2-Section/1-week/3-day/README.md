@@ -103,3 +103,32 @@ Wow I printed after myMid!!
 
 This is the / response
 ```
+
+## Error Handling Middleware
+
+Express handles errors through middleware.
+
+## How to use error handling middleware
+
+Error handling middleware _MUST_ have 4 parameters, `err`, `res`, `req`, and `next`, and `err` _NEEDS_ to be the first parameter. This is the only way for Express to recognize something as error handling middleware.
+
+Just like with any other custom middleware, we pass our error handlers into `app.use()` so it can be ran on every request. Error handler should be defined after all other middleware and route handlers.
+
+```js
+app.use(express.json())
+app.use(myMiddleware)
+
+app.get(...)
+
+app.get(...)
+
+app.post(...)
+
+app.delete(...)
+
+app.use((err, req, res, next) => {
+  console.log(err)
+  res.status(err.status || 500)
+  res.send('Whoops! Some error happened I guess?')
+})
+```
