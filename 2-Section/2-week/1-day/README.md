@@ -37,14 +37,6 @@
 - The database is actually just a file in your project folder
 - Can be pushed to github, so pairs can pick up from where you left off
 
-## Key Notes To Keep In Mind
-
-- This is another concept heavy mod and also "look-up" heavy week
-  - Are we comfortable finding the syntax for how to do something?
-  - Make sure you go over the readings, and practice with what they say in the readings
-- Practice makes perfect, Bonus Practice makes a passing exam score
-
-
 ### Quick SQLite Commands Reference
 Think as SQLite CLI commands like node commands.
 
