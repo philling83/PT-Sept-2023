@@ -1,5 +1,13 @@
 # `S2W20D1`
 
+## Question Asking Rubric (Required 1-3):
+
+1) What you are working on
+2) A description of the problem
+3) What the error message says in the console (if there is one)
+4) A relevant code snippet
+5) The debugging process you’ve done so far (THIS IS VERY HELPFUL TO DESCRIBE)
+
 ## Database
 
 - collection of interrelated tables with relevant data for a given application
