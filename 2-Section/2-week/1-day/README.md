@@ -48,6 +48,8 @@
 ### Quick SQLite Commands Reference
 Think of SQLite CLI commands like node commands.
 
+- Download *Sqlite Viewer* VSCode Extension
+  - Used to view .db files 
 - `sqlite3`
   - run `.open name-of-database.db` to open your database
 - `sqlite3 name-of-database.db`
