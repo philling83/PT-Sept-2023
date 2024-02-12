@@ -46,7 +46,7 @@
 - Can be pushed to github, so pairs can pick up from where you left off
 
 ### Quick SQLite Commands Reference
-Think as SQLite CLI commands like node commands.
+Think of SQLite CLI commands like node commands.
 
 - `sqlite3`
   - run `.open name-of-database.db` to open your database
