@@ -93,3 +93,6 @@ Think: left is first, right is second
   - *Not supported by Sqlite3*
 
 `LEFT` and `RIGHT` are interchangeable, just flip the order of the tables in your query
+
+![sql-joins](../../../images/sql-joins.png)
+*Source: w3schools.com*
