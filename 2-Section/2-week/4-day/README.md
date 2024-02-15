@@ -90,5 +90,6 @@ Think: left is first, right is second
 `RIGHT JOIN`
 
 - Only the right/second table must have a valid value to display an output
+  - *Not supported by Sqlite3*
 
 `LEFT` and `RIGHT` are interchangeable, just flip the order of the tables in your query
