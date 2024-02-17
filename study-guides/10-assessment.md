@@ -43,3 +43,12 @@
 - Any individual SQL projects based on topic
 - [Long Practice: Express Middlewares](https://open.appacademy.io/learn/js-py---pt-sep-2023-online/week-19---express/long-practice--express-middlewares)
 - Any of the SQL games from Sat for general practice
+
+---
+
+## Useful Tips
+- `.shell clear` to clear terminal when in Sqlite3 environment
+- Don't be afraid to delete your `.db` file and re-run CREATE and INSERT files again when needed
+- Don't get stuck on 1 query for too long
+- Get in as many reps as possible so no error surprises you
+- If you feel good about the PA, you are in a good spot for the actual
