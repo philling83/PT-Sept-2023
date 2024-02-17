@@ -50,5 +50,7 @@
 - `.shell clear` to clear terminal when in Sqlite3 environment
 - Don't be afraid to delete your `.db` file and re-run CREATE and INSERT files again when needed
 - Don't get stuck on 1 query for too long
+- Don't forget `;`s
+- Use single quotes (If you need an apostrophe, use 2 single quotes to escape char)
 - Get in as many reps as possible so no error surprises you
 - If you feel good about the PA, you are in a good spot for the actual
