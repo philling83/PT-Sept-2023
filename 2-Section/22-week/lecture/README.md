@@ -241,7 +241,7 @@
     - The benefit of creating these model association is that it automates the process of inserting / removing related data, and reduces the chance of errors.
 
 ## link to the sequelize association docs
-https://sequelize.org/docs/v7/category/associations/
+https://sequelize.org/docs/v6/core-concepts/assocs/
 
 # Lazy Loading and Eager Loading
 - Two different ways of retrieving data from our databases.
