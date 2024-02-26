@@ -248,6 +248,7 @@ https://sequelize.org/docs/v6/core-concepts/assocs/
  ### Lazy Loading
  - Delay loading associated data until we need it.
  - Suited for cases when we are pulling large amounts of data. Or for conditional loading IE only pulling related data if the data we pulled hasn't been updated yet.
+ - Or if the associated data is not needed at the moment, IE a menu item with a thumbnail, and its associated data of nutritional info etc.
  ```js
  // get the owner first
  const owner = await Owner.findByPk(id);
