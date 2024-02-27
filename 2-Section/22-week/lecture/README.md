@@ -346,7 +346,12 @@ module.exports = {
         //loop over the dogs array and use the owner method to remove the instances.
         for(let j = 0; j < dogs.length; i++){
             const dog = dogs[j];
-            await targetOwner.removeDog(dog)
+            const dogToRemove = Dog.findOne({
+                where:{
+                    name: dog.name
+                }
+            })
+            await targetOwner.removeDog(dogToRemove);
         }
     }
 
