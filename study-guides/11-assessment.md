@@ -21,6 +21,7 @@
             - scripts used to populate your database with initial data
     - Database Constraints vs Model Validations
     - Defining Associations
+        - One relationship = Two associations
     - Querying Data
         - Eager / Lazy Loading
         - *No aggregates / pagination*
@@ -35,5 +36,4 @@
 ## Helpful Tips
 
 - Comment in *logging: false* in */config/database.js* to reduce output from testing
-- Make sure any database constraints are also defined in the Models
-  - allowNull, unique
+- Make sure any changes done through Migrations are also made in the Models ie additional columns, constraints, etc
