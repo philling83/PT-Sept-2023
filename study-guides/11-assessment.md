@@ -8,7 +8,7 @@
     - Creating Indexes
         - Can be used to create unique constraints across multiple columns
 - Express
-    - Understand how to define routes handlers
+    - Understand how to define routes handlers (GET, POST, PUT/PATCH, DELETE)
     - How to parse information from req obj ie params, body-data
     - Query for information from database
     - Respond with the appropriate data
