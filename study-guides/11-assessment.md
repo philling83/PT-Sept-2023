@@ -10,6 +10,7 @@
 - Express
     - Understand how to define routes handlers
     - How to parse information from req obj ie params, body-data
+    - Query for information from database
     - Respond with the appropriate data
 - ORMs (Sequelize)
     - The purpose of:
