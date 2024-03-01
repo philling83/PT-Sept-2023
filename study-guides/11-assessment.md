@@ -37,6 +37,7 @@
 - [Intermediate Sequelize](https://open.appacademy.io/learn/js-py---pt-sep-2023-online/week-21---express-and-sequelize-pt--i/long-practice--intermediate-sequelize--1-)
 - [Sequelize Foundations](https://open.appacademy.io/learn/js-py---pt-sep-2023-online/week-21---express-and-sequelize-pt--i/long-practice--sequelize-foundations)
 - Individual Practices from Week21 Tues-Wed
+- Go back to Week 19 for Express review
 
 ## Helpful Tips
 
