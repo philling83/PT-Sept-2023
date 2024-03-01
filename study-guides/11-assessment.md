@@ -27,7 +27,7 @@
 
 ## Suggested Practices
 
-    - [Practice Assessment](https://open.appacademy.io/learn/js-py---pt-sep-2023-online/week-22---practice-assessment/readme) (once every day til Monday)
+    - [Practice Assessment](https://open.appacademy.io/learn/js-py---pt-sep-2023-online/week-22---practice-assessment/readme)
     - [Intermediate Sequelize](https://open.appacademy.io/learn/js-py---pt-sep-2023-online/week-21---express-and-sequelize-pt--i/long-practice--intermediate-sequelize--1-)
     - [Sequelize Foundations](https://open.appacademy.io/learn/js-py---pt-sep-2023-online/week-21---express-and-sequelize-pt--i/long-practice--sequelize-foundations)
     - Individual Practices from Week21 Tues-Wed
