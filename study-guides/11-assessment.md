@@ -34,6 +34,6 @@
 
 ## Helpful Tips
 
-    - Comment in *logging: false* in */config/database.js* to reduce output from testing
-    - Make sure any database constraints are also defined in the Models
-        - allowNull, unique
+- Comment in *logging: false* in */config/database.js* to reduce output from testing
+- Make sure any database constraints are also defined in the Models
+  - allowNull, unique
