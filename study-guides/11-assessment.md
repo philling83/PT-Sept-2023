@@ -7,6 +7,10 @@
     - Avoiding N + 1 Queries
     - Creating Indexes
         - Can be used to create unique constraints across multiple columns
+- Express
+    - Understand how to define routes handlers
+    - How to parse information from req obj ie params, body-data
+    - Respond with the appropriate data
 - ORMs (Sequelize)
     - The purpose of:
         - .sequelizerc
