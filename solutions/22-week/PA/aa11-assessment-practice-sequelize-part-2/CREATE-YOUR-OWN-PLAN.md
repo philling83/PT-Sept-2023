@@ -1,0 +1,34 @@
+- Migrations + Models!!!!!!!
+- 1 relationship = 2 associations!!!!!!
+
+- Migration 1
+  - Create sportId on Teams
+  - Relationship
+    - Reference Sports.id
+  - Adjust model
+    - Add sportId
+      - INTEGER, NOT NULL
+    - Association
+      - 1 Sport has Many Teams
+      - 1 Team belongs to 1 Sport
+
+- Migration 2
+  - Create currentTeamId on Players
+  - Relationship
+    - References Teams.id
+  - Adjust model
+    - Add currentTeamId
+      - INTEGER
+    - Association
+      - 1 Team has many Players
+      - 1 Player belongs to 1 Team
+
+- Model 1 + Migration 3
+  - Generate model
+  - Relationship
+    - fanId references Fans.id
+      - ON DELETE CASCADE
+    - playerId references Players.id
+  - Association
+    - Players belongs to many Fans
+    - Fans belongs to many Players
