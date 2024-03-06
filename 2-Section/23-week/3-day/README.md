@@ -8,6 +8,7 @@
   - Add your DB Schema
     - Use snake_case for column names (SQL best practices, camelCase is used for JS)
     - Aggregates don't need to be columns as they are calculated at query time
+    - `created_at` and `updated_at` on all tables
     - Turn on "Highlight Relationships" if using dbdiagram.io 
   - Add Alan and I as collaborators
     - philling83
