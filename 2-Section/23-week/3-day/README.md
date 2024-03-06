@@ -1,6 +1,18 @@
 # `S2W23D3`
 
-## CORS - Cross-Origin Resource Sharing
+## Project Planning Reminders
+
+- Create your project repo on Github
+  - Add your API Docs + DB Schema
+  - Add Alan and I as collaborators
+    - philling83
+    - AlanDeleon88
+- Kanban resources can be found under HW for Sat
+- Commit consistently and often
+
+## [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) - Cross-Origin Resource Sharing
+
+- Good quick YouTube Vid on CORS: https://www.youtube.com/watch?v=4KHiSt0oLJ0
 
 Prevents requests from other domains (URLs). We only want specific domains to
 have access to our database.
