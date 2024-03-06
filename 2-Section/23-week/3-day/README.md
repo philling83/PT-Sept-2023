@@ -3,7 +3,12 @@
 ## Project Planning Reminders
 
 - Create your project repo on Github
-  - Add your API Docs + DB Schema
+  - Add your API Docs
+    - append /api to your backend routes (to differentiate from frontend routes)
+  - Add your DB Schema
+    - Use snake_case for column names (SQL best practices, camelCase is used for JS)
+    - Aggregates don't need to be columns as they are calculated at query time
+    - Turn on "Highlight Relationships" if using dbdiagram.io 
   - Add Alan and I as collaborators
     - philling83
     - AlanDeleon88
