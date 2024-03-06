@@ -2,6 +2,8 @@
 
 ## Project Planning Reminders
 
+![roadmap-pt1](./roadmap-pt1.png)
+
 - Create your project repo on Github
   - Add your API Docs
     - append /api to your backend routes (to differentiate from frontend routes)
