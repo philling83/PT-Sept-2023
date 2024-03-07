@@ -15,7 +15,7 @@
   - Add Alan and I as collaborators
     - philling83
     - AlanDeleon88
-- Kanban resources can be found under HW for Sat
+- Kanban resources can be found under HW for Mon
 - Commit consistently and often
 
 ## [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) - Cross-Origin Resource Sharing
