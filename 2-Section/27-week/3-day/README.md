@@ -49,7 +49,7 @@ To specify a route, wrap your components with `Route` and pass a `path` as a pro
 ```
 
 
-## BrowserRouter 
+## BrowserRouter
 
 The Routes we create must be held within a BrowserRouter and passed through a RouterProvider component. We can create a browser router with the built in function from the package react-router-dom ```createBrowserRouter```, then we must pass it in as a prop to the RouterProvider.
 
@@ -139,7 +139,7 @@ This is the login form
 
 Because `/`, `/login` also all have the path pattern of `/`
 
-### To prevent this behavior, we can use ommit the ```<Outlet />``` component from the home component.
+### To prevent this behavior, we can ommit the ```<Outlet />``` component from the home component.
 
 ```jsx
     function Home(){
@@ -228,17 +228,20 @@ So, using either `exact`, `<Switch>`, or a combination of the two will depend on
 
 ---
 
-## `useHistory()`
+## `useHistory()` PRE 6.4
 
 Another way to handle page redirection
 
 Two main methods:
 
 ```js
-import { useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom'; // Pre 6.4
+
 
 const Example = () => {
-    const history = useHistory();
+    const history = useHistory(); // Pre 6.4
+
+
     const clickFunc = () => history.push('/path/to/redirect/to');
     const otherClickFunc = () => history.replace('/path/to/redirect/to');
 };
@@ -278,5 +281,19 @@ history.replace('developer.mozilla.org');
 // Ending history
 ['reddit.com', 'developer.mozilla.org'];
 ```
-
 Now we're on MDN, and clicking the back button will take us to Reddit
+
+## `useNavigate()`
+```js
+import { useNavigate } from 'react-router-dom'; // Pre 6.4
+
+
+const Example = () => {
+    const navigate = useNavigate(); // Pre 6.4
+
+
+    const clickFunc = () => navigate('/path/to/redirect/to');
+    const otherClickFunc = () => navigate('/path/to/redirect/to', {replace : true}); //optional object to replace the latest address in history array
+    const anotherClickFunc = () => navigate(-1) // can input numbers to tell the browser to take a number of steps through the browser history. In the case of -1, it is essentially telling the browser to go back one page.
+};
+```
