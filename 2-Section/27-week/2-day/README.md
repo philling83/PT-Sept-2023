@@ -1,4 +1,4 @@
-# `S2W27D2`
+# `M5W1D3`
 
 # React Foundations
 
@@ -129,7 +129,7 @@ const roleName = 'Instructor';
 const JuneStaff = () => {
   return (
     <MyComponent name="Philip" role={roleName} />;
-    <MyComponent name="Alan" role="Module Assistant" />;
+    <MyComponent name="Jorge" role="Assistant Instructor" />;
   )
 }
 ```
@@ -146,3 +146,11 @@ const MyComponent = ({ name, role }) => {
     );
 };
 ```
+
+## Practice: Functional Components - JSX (30 Minutes)
+
+## Practice: Functional Components - Props (30 Minutes)
+
+## Practice: Functional Components - Lists (30 Minutes)
+
+## Create React App Practice (30 Minutes)
