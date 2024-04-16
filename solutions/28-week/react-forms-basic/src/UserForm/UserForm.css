@@ -1,0 +1,9 @@
+.main-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    width: 500px;
+    gap: 10px;
+}
