@@ -1,4 +1,4 @@
-# `S2W33D4`
+# `S2W33D43`
 
 ## Functions
 
@@ -31,14 +31,12 @@ You should order parameters and arguments in this order.
 # default: keyword argument with default value
 # (**)kwargs: any arguments with a key=value pairing. Type is a Dictionary.
 def parameters(positional, *args, default='default', **kwargs):
-  print(positional, args, default, kwargs)
+  print("positional: ", positional)
+  print("args: ", args) 
+  print("default: ", default)
+  print("kwargs: ", kwargs)
+
 parameters('hello', 1,2,3,4, test='test', world='earth')
-# It is considered best practice to use positional arguments for parameters without default values and keyword arguments for parameters with default values
-def default_value(a, b='b'):
-  print(a, b)
-default_value('a')
-default_value('a', 'c')
-default_value('a', b='d')
 ```
 
 ---
