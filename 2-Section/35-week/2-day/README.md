@@ -1,5 +1,8 @@
 # `S2W35D2`
 
+## [Jinja Docs](https://jinja.palletsprojects.com/en/3.1.x/)
+## [Flask Docs](https://flask.palletsprojects.com/en/3.0.x/quickstart/)
+
 ## Templating
 
 Main reasons to use templating
